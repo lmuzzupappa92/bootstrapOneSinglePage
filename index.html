@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" lang="es">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+
+    <title>MonkeyBurguers</title>
+</head>
+<body>
+<!--------------------------------------------INICIO SECCION 1-------------------------------------->
+    <header class=" ">
+        <div id="brandBar" class="container d-flex justify-content-left p-2 mt-5">
+            <a href="#" target="_blank" class="navbar-brand  p-3">
+                <img src="./Imagenes/logoMonkeySVG.svg" class="p-0" style="width:70px" alt="">
+            </a>
+            <h1 id="h1" class=" text-center text-success fs-1  m-0 pt-4 pr-5">MonkeyBurguers</h1>    
+        </div>            
+
+        <nav id="nav" class="navbar-expand fixed-top navbar-expand-md scrolling-navbar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+
+                <div class="navbar-nav d-flex justify-content-end">
+                    <a href="" class="nav-item nav-link m-1 btn btn-outline-success active">Inicio</a>
+                    <a href="https://monkey.pedidosfree.com.ar/" class="nav-item nav-link m-1 btn btn-outline-success">PedidosFree</a>
+                    <a href="" class="nav-item nav-link m-1 btn btn-outline-success">Nosotros</a>
+                    <a href="http://www.hundredburgers.com/" class="nav-item nav-link m-1 btn btn-outline-success">Nuestra Inspiracion</a>
+                </div>
+        </nav >
+    </header>
+
+<!--------------------------------------------INICIO SECCION 2-------------------------------------->
+    <main>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12-sm">
+                    <div id="carouselItem" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                                <button id="btnSlider" type="button" data-bs-target="#carouselItem" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button id="btnSlider" type="button" data-bs-target="#carouselItem" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button id="btnSlider" type="button" data-bs-target="#carouselItem" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Imagenes/burguer-1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/burguer-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/burger-3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--------------------------------------------INICIO SECCION 3-------------------------------------->
+        <h2 id="h2" class="text-center text-success p-2 text-decoration-underline">COMBOS DE JUNIO</h2>
+        <section class="row p-3 d-flex justify-content-evenly" >
+                <div class="col-md-3 card mt-1 text-success border rounded-3 ">
+                    <div class="container card-body">
+                        <div class="row">
+                            <h5 class="col-md-12 card-title text-success text-center  fs-4">Combo Monkey Friends $4190</h5>
+                            <p id="p" class="col-md-12 card-text text-center p-3 fs-5 ">3 Island dobles, papas con cheddar panceta verdeo, 3 latas de Ipa</p>
+                            <!--<p id="p" class="col-md-12 card-text text-center p-1 fs-7 ">*Monkey Island: pan brioche, 2 medallones (120gr), queso cheddar, lechuga,pepinnillos, salsa Island.</p>   -->
+                        <a href="" class=" btn btn-success center-block  m-1">Ver más</a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-md-3 card mt-1 text-success border rounded-3 ">
+                    <div class="container card-body">
+                        <div class="row">
+                            <h5 class=" col-md-12 card-title text-success text-center  fs-4">Combo Monkeys BBQ x2 $1890</h5>
+                            <p id="p" class="col-md-12 card-text text-center p-3 fs-5">2 King of BBQ, papas  grandes, 2 salsas extras (alioli /mayo palta) </p>
+                        <!--<p id="p" class="col-md-12 card-text text-center p-1 fs-7">pan de papa, 2 medallones dobble cheddar, doble panceta, cebolla frita y barbacoa casera.</p>--> 
+                            <a href="" class="btn btn-success center-block m-1">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 card mt-1 text-success border rounded-3 ">
+                    <div class="card-body">
+                        <div class="row">
+                            <h5 class="col-md-12 card-title text-success text-center fs-4">Combo Monkey Green (vegan) $2190</h5>
+                            <p id="p" class="col-md-12 card-text text-center fs-5 p-3 "> 2 Monkey Vegan, papas con muzzarella vegan,2 salsas extras </p>
+
+                            <!-- <p id="p" class="col-md-12 card-text text-center p-1 fs-7">pan brioche, 2 medallones de NOTCO, cheddar vegano, jamon vegano, lechuga, tomate, mayo de zanahoria</p>-->
+                            <a href="" class="btn btn-success center-block m-1">Ver más</a>
+                        </div>
+                    </div>
+                </div> 
+        </section>
+<!--------------------------------------------INICIO SECCION 4-------------------------------------->
+        <div class="container border rounded-3 border-grey  shadow-sm">
+            <h3 id="p" class="text-center mt-3 text-success">SORTEO DIA DEL AMIGO, GANATE UNA CENA PARA 4 !!</h3>
+
+            <form class="row g-3">
+                <div class="col-md-5">
+                    <label  class="form-label text-success fs-5" for="nombre">Nombre/s</label>
+                    <input class="form-control " type="text"  id="nombre" >
+                </div>
+                <div class="col-md-5">
+                    <label class="form-label text-success fs-5 " for="apellido">Apellido</label>
+                    <input  class="form-control " type="text"  id="apellido" >
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label text-success fs-5 " for="email">Correo electrónico</label>
+                    <input class="form-control" type="email" >
+                </div>
+                <div class="col-md-3">
+                    <label for="telefono" class="form-label text-success fs-5">Teléfono</label>
+                    <input type="text" class="form-control" id="telefono" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label text-success fs-5 " for="direccion">Domicilio de entrega</label>
+                    <input class="form-control" type="text" id="direccion" required>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label text-success fs-5 " for="altura">Altura</label>
+                    <input class="form-control" type="text" id="altura" required>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <label class="form-label text-success text fs-5 " for="piso">Piso/Dpto</label>
+                    <input class="form-control" type="text" id="piso">
+                </div>
+                <button type="submit" class="btn btn-outline-success text-center fs-5 mb-3">Anotarse</button>
+            </form>
+
+        </div>
+    </main>
+<!--------------------------------------------INICIO SECCION 5-------------------------------------->
+    <footer class=" mt-2">
+        <div class="footer-dark  text-success p-3 m-2 ">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4  item">
+                            <h3 >Horarios</h3>
+                            <ul class="list-unstyled">
+                                <li class="m-1 p-1">
+                                    <a class="p-2 text-success" href="#"><i class="bi bi-clock"></i> Mar a Jue 18 a 23hs</a>
+                                </li>
+                                <li class="m-1 p-1">
+                                    <a class="p-2 text-success" href="#"><i class="bi bi-clock"></i> Vie y Sab 17 a 00hs</a>
+                                </li>
+                                <li class="m-1 p-1">
+                                    <a class="p-2 text-success" href="#"><i class="bi bi-clock"></i> Dom y Lun Off</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4  item">
+                            <h3 >Nuestras Redes</h3>
+                            <ul class="list-unstyled" >                       
+                                        <li class="m-1 p-1">
+                                            <a class="p-2  text-success" href="https://www.instagram.com/monkeyburgers/"><i class="bi bi-instagram"></i> Instagram<a>               
+                                <li class="m-1 p-1">
+                                    <a class="p-2  text-success" href="https://linktr.ee/MonkeyBurgers/"><i class="bi bi-tree"></i> Linktree</a>
+                                </li>
+                                <li class="m-1 p-1">
+                                    <a class="p-2  text-success" href="https://api.whatsapp.com/send?phone=541139338968"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 item text">
+                            <h3>MonkeyBurguers</h3>
+                            <p id="p" class="lead text-justify">en Villa Luro desde el 2015, preparando las mejores hamburguesas del barrio para que comas rico y abundante.</p>
+                        </div>
+                    </div>
+                    <p id="p" class="copyright d-flex justify-content-end  mb-1">MonkeyBurguers © 2022</p>
+                </div>
+            </footer class="mb-">
+        </div>    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
